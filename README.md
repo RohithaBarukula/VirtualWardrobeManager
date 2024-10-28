@@ -33,23 +33,6 @@ This project is designed with the following Object-Oriented Programming principl
 4. *Code Reusability*:
    - Each class can be extended independently. For instance, WardrobeManager could be expanded to include more complex wardrobe functionalities, and OutfitPlanner could be modified to support seasonal outfits without affecting the core functionality.
 
-### Project Structure
-
-
-VirtualWardrobe/
-├── include/
-│   ├── ClothingItem.h       # Header for ClothingItem class
-│   ├── OutfitPlanner.h      # Header for OutfitPlanner class
-│   └── WardrobeManager.h    # Header for WardrobeManager class
-├── src/
-│   ├── main.cpp             # Main file with user interface
-│   ├── ClothingItem.cpp     # Implementation of ClothingItem class
-│   ├── WardrobeManager.cpp  # Implementation of WardrobeManager class
-│   └── OutfitPlanner.cpp    # Implementation of OutfitPlanner class
-├── build/                   # Directory for compiled files
-├── CMakeLists.txt           # CMake configuration file
-└── README.md                # Project documentation
-
 
 ### Installation and Running Instructions
 
