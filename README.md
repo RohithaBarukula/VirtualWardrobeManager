@@ -23,35 +23,35 @@ The wardrobe is stored as a std::map, where categories (e.g., Shirts, Pants, Sho
 
 #### Operations Users can perform:
 
-Add new items via a form-based GUI.
+- Add new items via a form-based GUI.
 
-Delete items using category and item selection interfaces.
+- Delete items using category and item selection interfaces.
 
-Browse items through scrollable category-specific lists.
+- Browse items through scrollable category-specific lists.
 
 ### Outfit Generation
 
-Daily Outfit Generation combines random items from different categories (e.g., Shirt, Pants) into a cohesive outfit using std::random_device and std::uniform_int_distribution for random selection.
+- Daily Outfit Generation combines random items from different categories (e.g., Shirt, Pants) into a cohesive outfit using std::random_device and std::uniform_int_distribution for random selection.
 
 #### Weekly Planner:
 
-Generates outfits for each day of the week, stored as a std::vector of Outfit structs.
+- Generates outfits for each day of the week, stored as a std::vector of Outfit structs.
 
-Displays outfits with labeled boxes in a scrollable window.
+- Displays outfits with labeled boxes in a scrollable window.
 
-Enables users to regenerate or save plans for future reference.
+- Enables users to regenerate or save plans for future reference.
 
 ### Graphical User Interface (GUI)
 
-Built using the FLTK library for lightweight and customizable windows and widgets.
+- Built using the FLTK library for lightweight and customizable windows and widgets.
 
 #### Features include:
 
-Scrollable views for browsing wardrobe items and weekly plans.
+- Scrollable views for browsing wardrobe items and weekly plans.
 
-Dynamic updates for labels and buttons to reflect real-time actions.
+- Dynamic updates for labels and buttons to reflect real-time actions.
 
-Confirmation dialogs for actions like saving plans or deleting items.
+- Confirmation dialogs for actions like saving plans or deleting items.
 
 
 
